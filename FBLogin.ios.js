@@ -14,10 +14,10 @@ var {
 
 // These are not yet exposed by the react-native package, so we must
 // continue requiring them this way, which will cause warnings.
-var LayoutPropTypes = require('LayoutPropTypes');
-var StyleSheetPropType = require('StyleSheetPropType');
-var NativeMethodsMixin = require('NativeMethodsMixin');
-var RCTDeviceEventEmitter = require('RCTDeviceEventEmitter');
+var LayoutPropTypes = require('react-native/Libraries/StyleSheet/LayoutPropTypes');
+var StyleSheetPropType = require('react-native/Libraries/StyleSheet/StyleSheetPropType');
+var NativeMethodsMixin = require('react-native/Libraries/ReactIOS/NativeMethodsMixin');
+var RCTDeviceEventEmitter = require('react-native/Libraries/Device/RCTDeviceEventEmitter');
 
 var { FBLoginManager } = NativeModules;
 
